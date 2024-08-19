@@ -1,0 +1,20 @@
+Run the server in the sql workbench
+ 
+Run the code by the following command
+
+filename: application_4a.cpp
+
+g++ application_4a.cpp -o application -lmysqlcppconn
+
+then run the executable by the command
+
+./application <servername> <username> <password>
+
+example
+servername=tcp://localhost:3306
+username=root
+password=******
+
+Code has a while loop which enables user to interact with it multiple time 
+if teaching tuple already exists with different classromm we are updating that classroom to user given input
+
